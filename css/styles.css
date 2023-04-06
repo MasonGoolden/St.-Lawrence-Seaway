@@ -1,0 +1,123 @@
+/* CSS Document */
+
+/* COLORS 
+#817F82 - Gray
+#AE8CA3 - Rose Quartz
+#A2ABB5 - Cadet Grey
+#95D9DA - Tiffany Blue
+#6DD6DA - Tiffany Blue (darker)
+*/
+
+/* FONTS 
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&family=Work+Sans:wght@300&display=swap');
+
+
+/* CSS Browser Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+nav{
+    text-align: center;
+    background-color: #A2ABB5;
+    display: block;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#1F1368;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li a:hover {
+ background-color: #555;
+    color: white;
+}
+
+header h1{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+}
+
+header p{
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	background-color: #817F82;
+	font-size: 1.2em;
+}
+
+main p{
+	background-color: #95D9DA;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.3em;
+}
+
+.newslettermain {
+	background-image: url("..//images/Vue_aerienne_saint_laurent.jpeg");
+}
+
+.newslettermain label{
+	align-content: center;
+	font-size: 1.5em;
+}
+
+.EcoMain h1{
+	text-align: center;
+	font-size: 2.4em;
+		font-family: 'Roboto', sans-serif;
+}
+
+.EcoMain p{
+	
+}
+
+.locksheader h1{
+	text-align: center;
+		font-family: 'Roboto', sans-serif;
+}
+
+.locksheader li{
+	background-color: #AE8CA3;
+}
+
+.locksheader p{
+	background-color: #6DD6DA;
+}
+
+.HomePage {
+    background-color: gray;
+}
+
+.HomePage h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+.HomePage p{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+footer{
+    text-align: center;
+    
+}
